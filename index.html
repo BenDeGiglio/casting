@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Casting Thingy</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		.talent-container{
+			float: left;
+			height: 100vh;
+			width: 100%;
+		}
+		.headshot, .bodyshot, .gallery{
+			width: 100%;
+			height: 100%;
+			float: left;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-ms-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.mobile-action-menu{
+			position: fixed;
+			bottom: 0;
+			height: 50px;
+			background-color: #666;
+			z-index: 9999;
+			width: 100%;
+		}
+		.gallery-item{
+			width:25%;
+			float: left;
+			padding-bottom: 33%;
+			-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+			-ms-background-size: 100%;
+			-o-background-size: 100%;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.quick-info{
+			position: fixed;
+			bottom: 60px;
+			right: 10px;
+		}
+		.quick-info h1, .quick-info h4{
+			text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+			color: #fff;
+			text-align: right;
+			font-size: 25px;
+		}
+		.quick-info h4{
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="talent-container">
+		<!-- inline image because we will most likely be doing it dynamically with php -->
+		<div class="quick-info">
+			<h1 class="name">Nooranna Maher</h1>
+			<h4 class="age">Age: 6</h4>
+		</div>
+		<div class="headshot" style="background-image:url(img/headshot.jpg);"></div>
+		<div class="bodyshot" style="background-image:url(img/bodyshot.jpg);"></div>
+		<div class="gallery">
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/headshot.jpg);"></div>
+			<div class="gallery-item" style="background-image:url(img/bodyshot.jpg);"></div>
+		</div>
+	</div>
+	<div class="mobile-action-menu"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
